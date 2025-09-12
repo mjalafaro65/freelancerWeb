@@ -26,7 +26,6 @@ public class Account {
     private String lastname;
 
 
-    @Email(message = "Invalid email format")
     @Column(unique = true)
     private String email;
     private String password;
